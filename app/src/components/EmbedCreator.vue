@@ -12,7 +12,7 @@
                     </p>
                 </div>
                 <discord-preview class="mt-5 mx-4 sm:mx-0" :data="embedData"/>
-                <twitter-preview class="mt-5 mx-4 sm:mx-0"/>
+                <twitter-preview class="mt-5 mx-4 sm:mx-0" :data="embedData"/>
                 <facebook-preview class="mt-5 mx-4 sm:mx-0"/>
             </div>
             <div class="mt-5 lg:mt-0 lg:col-span-3">
