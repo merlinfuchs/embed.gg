@@ -12,8 +12,8 @@
                     </p>
                 </div>
                 <discord-preview class="mt-5 mx-4 sm:mx-0" :data="embedData"/>
-                <twitter-preview class="mt-5 px-4 sm:px-0"/>
-                <facebook-preview class="mt-5 px-4 sm:px-0"/>
+                <twitter-preview class="mt-5 mx-4 sm:mx-0"/>
+                <facebook-preview class="mt-5 mx-4 sm:mx-0"/>
             </div>
             <div class="mt-5 lg:mt-0 lg:col-span-3">
                 <div>
@@ -148,7 +148,7 @@
 <script>
     import DiscordPreview from './DiscordPreview'
     import FacebookPreview from './FacebookPreview'
-    import TwitterPreview from './TwitterFacebook'
+    import TwitterPreview from './TwitterPreview'
 
     export default {
         components: {DiscordPreview, FacebookPreview, TwitterPreview},
