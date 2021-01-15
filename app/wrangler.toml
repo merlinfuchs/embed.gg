@@ -1,0 +1,13 @@
+name = "embed_gg"
+type = "webpack"
+account_id = "42459c568b12d0902eeac887235b0c41"
+workers_dev = false
+route = "embed.gg/*"
+zone_id = "2b69db18be809bc9be8ae14a393b066e"
+kv_namespaces = [
+    { binding = "KV", id = "8eb20320061a4a02a3cd02371cb5828e" }
+]
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
